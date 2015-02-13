@@ -1,4 +1,6 @@
-#C
+#Beat Blocks
+
+A helpful scaffolding for building out configurable blocks that describe themselves.
 
 ##Global Build Dependencies
 
