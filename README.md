@@ -2,6 +2,12 @@
 
 A helpful scaffolding for building out configurable blocks that describe themselves.
 
+![npm dependencies](https://david-dm.org/phase2/beat-blocks.svg) ![npm dev dependencies](https://david-dm.org/phase2/beat-blocks/dev-status.svg)
+
+<iframe src="//benschwarz.github.io/bower-badges/embed.html?pkgname=beat-blocks" width="160" height="32" allowtransparency="true" frameborder="0" scrolling="0"></iframe>
+
+[![NPM](https://nodei.co/npm/beat-blocks.png)](https://nodei.co/npm/beat-blocks/)
+
 ##Global Build Dependencies
 
 - [node/npm](http://nodejs.org/) - For package management
