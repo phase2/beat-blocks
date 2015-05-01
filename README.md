@@ -2,11 +2,9 @@
 
 A helpful scaffolding for building out configurable blocks that describe themselves.
 
-![npm dependencies](https://david-dm.org/phase2/beat-blocks.svg) ![npm dev dependencies](https://david-dm.org/phase2/beat-blocks/dev-status.svg)
+<a href="https://david-dm.org/phase2/beat-blocks"><img src="https://david-dm.org/phase2/beat-blocks.svg" alt="npm dependencies"></a> <a href="https://david-dm.org/phase2/beat-blocks#info=devDependencies"><img src="https://david-dm.org/phase2/beat-blocks/dev-status.svg" alt="npm dependencies"></a> <a href="http://badge.fury.io/bo/beat-blocks"><img src="https://badge.fury.io/bo/beat-blocks.svg" alt="Bower version" height="18"></a>
 
-<iframe src="//benschwarz.github.io/bower-badges/embed.html?pkgname=beat-blocks" width="160" height="32" allowtransparency="true" frameborder="0" scrolling="0"></iframe>
-
-[![NPM](https://nodei.co/npm/beat-blocks.png)](https://nodei.co/npm/beat-blocks/)
+<a href="https://nodei.co/npm/beat-blocks/"><img src="https://nodei.co/npm/beat-blocks.png" alt="NPM" /></a>
 
 ##Global Build Dependencies
 
@@ -14,7 +12,22 @@ A helpful scaffolding for building out configurable blocks that describe themsel
 - [grunt](http://gruntjs.com/) - For task management
 - [browserify](http://browserify.org/) - For bundling various src files into a single distribution
 
-##Install
+##Dependencies
+
+- [lodash](https://lodash.com/)
+- [d3](http://d3js.org/)
+- [Handlebars](http://handlebarsjs.com/)
+
+##Usage
+    <script type="text/javascript" src="../dist/beat-blocks.js"></script>
+    <script type="text/javascript">
+        var mySimpleWidget = BeatBlocks.widget('image');
+        mySimpleWidget.render('#widget');
+    </script>
+    
+See the examples folder of this repo for more detailed information.
+
+##Dev tools install
 
 In root directory of the repo...
 
@@ -59,8 +72,3 @@ At their core, a widget is a template file and a simple javascript object.
   Override this method in your custom widgets to define your own js behaviors.
 
 - .template() - The actual rendering method for a widget. By default, widgets use Handlebars.js for templating purposes.
-
-##Creating a new widget
-
-The rw-widget library allows for developers to create additional widgets that can be registered to the library.
-Check the exapmle/custom-widget.html file for an example of how to define a custom widget.
