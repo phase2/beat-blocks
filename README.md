@@ -2,11 +2,11 @@
 
 A helpful scaffolding for building out configurable blocks that describe themselves.
 
-![npm dependencies](https://david-dm.org/phase2/beat-blocks.svg) ![npm dev dependencies](https://david-dm.org/phase2/beat-blocks/dev-status.svg)
+<a href="https://david-dm.org/phase2/beat-blocks"><img src="https://david-dm.org/phase2/beat-blocks.svg" alt="npm dependencies"></a> <a href="https://david-dm.org/phase2/beat-blocks/dev-status"><img src="https://david-dm.org/phase2/beat-blocks/dev-status.svg" alt="npm dependencies"></a>
 
 <iframe src="//benschwarz.github.io/bower-badges/embed.html?pkgname=beat-blocks" width="160" height="32" allowtransparency="true" frameborder="0" scrolling="0"></iframe>
 
-[![NPM](https://nodei.co/npm/beat-blocks.png)](https://nodei.co/npm/beat-blocks/)
+<a href="https://nodei.co/npm/beat-blocks/"><img src="https://nodei.co/npm/beat-blocks.png" alt="NPM" /></a>
 
 ##Global Build Dependencies
 
@@ -62,5 +62,3 @@ At their core, a widget is a template file and a simple javascript object.
 
 ##Creating a new widget
 
-The rw-widget library allows for developers to create additional widgets that can be registered to the library.
-Check the exapmle/custom-widget.html file for an example of how to define a custom widget.
