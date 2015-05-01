@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Component Example</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta http-equiv="content-type" content="text/html; charset=UTF8">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.7.0/lodash.js"></script>
+  <script type="text/javascript" src="../dist/beat-blocks.js"></script>
+  <script type="text/javascript" src="compile-example.js"></script>
+</head>
+<body>
+<div id="widget"></div>
+
+<script type="text/x-handlebars" id="image">
+  <h1>{{ title }}</h1>
+  <div class="image-container">
+    <img src="{{ image }}" alt="{{ alt }}" />
+    <div class="caption">{{ caption }}</div>
+  </div>
+</script>
+<script type="text/javascript">
+    var mySimpleWidget = BeatBlocks.widget('image', {
+      template: '#image',
+      title: "Here's my title",
+      image: "http://lorempixel.com/g/400/200/",
+      alt: "A stock photo",
+      caption: "This example shows how to override the compile function, which if used in a node.js setup, will allow you to modify configuration before rendering the widget."
+    });
+    mySimpleWidget.render('#widget');
+</script>
+</body>
+</html>
