@@ -2,9 +2,7 @@
 
 A helpful scaffolding for building out configurable blocks that describe themselves.
 
-<a href="https://david-dm.org/phase2/beat-blocks"><img src="https://david-dm.org/phase2/beat-blocks.svg" alt="npm dependencies"></a> <a href="https://david-dm.org/phase2/beat-blocks/dev-status"><img src="https://david-dm.org/phase2/beat-blocks/dev-status.svg" alt="npm dependencies"></a>
-
-<iframe src="//benschwarz.github.io/bower-badges/embed.html?pkgname=beat-blocks" width="160" height="32" allowtransparency="true" frameborder="0" scrolling="0"></iframe>
+<a href="https://david-dm.org/phase2/beat-blocks"><img src="https://david-dm.org/phase2/beat-blocks.svg" alt="npm dependencies"></a> <a href="https://david-dm.org/phase2/beat-blocks#info=devDependencies"><img src="https://david-dm.org/phase2/beat-blocks/dev-status.svg" alt="npm dependencies"></a> <a href="http://badge.fury.io/bo/beat-blocks"><img src="https://badge.fury.io/bo/beat-blocks.svg" alt="Bower version" height="18"></a>
 
 <a href="https://nodei.co/npm/beat-blocks/"><img src="https://nodei.co/npm/beat-blocks.png" alt="NPM" /></a>
 
